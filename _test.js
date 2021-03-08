@@ -1,7 +1,4 @@
-'use strict'
+'use strict';
 
-let str = '  kjhdsfgjhkfdjg  '
-
-str.trim()
-
-console.log(str);
+const empty = {};
+console.log(empty.toString());
