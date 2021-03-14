@@ -1,4 +1,3 @@
-'use strict';
+let str = 'Мыла мама раму'
 
-const empty = {};
-console.log(empty.toString());
+console.log(str.split(/м|М[ыау]/));
